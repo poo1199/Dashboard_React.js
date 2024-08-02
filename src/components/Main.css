@@ -1,0 +1,39 @@
+/* Main.css */
+.main {
+    padding: 2rem;
+    margin-top: 70px; /* Adjust to the height of the header */
+  }
+  
+  .row {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .activity-goals {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .orders-feedback {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: black;
+  }
+  
+  .orders-feedback > div {
+    flex: 1; /* Ensure both Orders and Feedback take equal width */
+  }
+  
+  .orders-feedback > div:first-child {
+    margin-right: 1rem; /* Add margin to the first child if needed */
+  }
+  

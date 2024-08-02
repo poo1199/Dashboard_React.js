@@ -1,0 +1,34 @@
+/* Stats.css */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates a 5-column grid */
+    gap: 1rem; /* Space between items */
+    margin: 1rem; /* Margin around the grid */
+  }
+  
+  .stat {
+    background-color: #3e3e3e;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stat i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .stat p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  

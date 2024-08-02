@@ -1,0 +1,36 @@
+.orders {
+    margin-top: 2rem;
+    background-color: #3e3e3e;
+    padding: 1rem;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .orders ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .orders li {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    border-bottom: 1px solid #2e2e2e;
+  }
+  
+  .orders li:last-child {
+    border-bottom: none;
+  }
+  
+  .status.delivered {
+    color: #4caf50; /* Green */
+  }
+  
+  .status.cancelled {
+    color: #f44336; /* Red */
+  }
+  
+  .status.pending {
+    color: #ff9800; /* Orange */
+  }
+  

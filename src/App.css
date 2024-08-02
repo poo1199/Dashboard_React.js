@@ -1,0 +1,33 @@
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #121212;
+  background-color: black;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  margin-top: 60px; /* Adjust margin to account for fixed header height */
+}
+
+.header {
+  width: calc(100% - 100px); /* Move width adjustment to Header.css */
+}
+
+.sidebar {
+  width: 100px; /* Ensure consistency with Sidebar.css */
+  position: fixed; /* Fix the sidebar */
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.main {
+  flex: 1;
+  padding: 1rem;
+  background-color: #121212;
+  color: white;
+  margin-left: 100px; /* Adjust for sidebar width */
+}

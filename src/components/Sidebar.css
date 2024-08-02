@@ -1,0 +1,38 @@
+/* Sidebar.css */
+.sidebar {
+    width: 100px;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center icons horizontally */
+    justify-content: flex-start; /* Align icons at the top */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center list items horizontally */
+    width: 100%;
+  }
+  
+  .sidebar ul li {
+    padding: 1rem 0;
+    cursor: pointer;
+    width: 100%; /* Full width for better clickable area */
+    display: flex;
+    justify-content: center; /* Center icon within the list item */
+  }
+  
+  .sidebar ul li i {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
